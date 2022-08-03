@@ -1,0 +1,91 @@
+.card__content{
+    text-transform: capitalize;
+    opacity: 1;
+}
+.card {
+    width: 100px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 45%;
+  max-width: 250px;
+  max-height: 350px;
+  box-sizing: content-box;
+  border: solid #000 3px;
+  border-radius: 15px;
+  padding: 5px;
+  }
+  .card-title {
+    display: block;
+    text-align: center;
+    color: #000;
+    padding: 2%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  
+.card_container{
+display: grid;
+text-decoration: none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.card :hover .card-title{
+  color: blue;
+}
+.card img {
+  width: 100%;
+  height: 98%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.content{
+  z-index: 1;
+  margin-top: 56px;
+  background-color: #3f9d41;
+opacity: 0.7;
+background-image: radial-gradient( ellipse farthest-corner at 4px 4px , #979797, #979797 50%, #3f9d41 50%);
+background-size: 4px 4px;
+}
+.pagination {
+    justify-content: center;
+    height: 90px;
+      width: 100%;
+      top: 10px;
+      left: 0;
+      display: flex;
+      align-items:center;
+      padding: 0 15px;
+      flex-flow: row;
+      box-sizing: border-box;
+  }
+  
+  ul.pagination li {
+    display: inline-block;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .page-selected {
+    width: 48px;
+    height: 30px;
+    color: #337ab7;
+  }
+  ul.pagination li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  ul.pagination li a:hover,
+  ul.pagination li a.active {
+    background-color: #c5c5f6;
+    background-image: linear-gradient(0deg, #c5c5f6 50%, rgb(52, 67, 182) 50%);
+    background-size: 4px 4px;
+    border-color: #000000;
+    border-width: 2px;
+    cursor: pointer;
+    color: blue;
+  }

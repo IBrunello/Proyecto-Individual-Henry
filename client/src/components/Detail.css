@@ -1,0 +1,52 @@
+.pokemon{
+    margin-top: 56px;
+}
+.detail-body{
+    text-transform: capitalize;
+}
+.sprite{
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titles li{
+    z-index: 1;
+    border: solid white 1px;
+    width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+    list-style:none;
+    padding:4px 9px;
+    font-weight:bold;
+    background:#333;
+    color:#fff;
+    height: 25px;
+    text-align: center;
+}
+.stats li{
+    width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+    list-style:none;
+    padding:4px 9px;
+}
+.types .title{
+    z-index: 1;
+    border: solid white 1px;
+    width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+    list-style:none;
+    padding:4px 9px;
+    font-weight:bold;
+    background:#333;
+    color:#fff;
+    height: 25px;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #3f9d41;
+opacity: 0.75;
+background-image: radial-gradient( ellipse farthest-corner at 4px 4px , #979797, #979797 50%, #40aa42 50%);
+background-size: 4px 4px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
